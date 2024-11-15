@@ -1,0 +1,4 @@
+2024-11-15T19:14:59.478+05:00  INFO 12760 --- [web] [Thread-0] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-15T19:14:59.478+05:00  INFO 12760 --- [web] [Thread-0] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-15T19:14:59.527+05:00  INFO 12760 --- [web] [Thread-0] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-15T19:15:07.316+05:00  INFO 12760 --- [web] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'

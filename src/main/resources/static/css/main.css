@@ -1,0 +1,43 @@
+@import url("./start-menu.css");
+
+* {
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+        --bg-main: white;
+        --bg-menu-color: rgb(235, 235, 235);
+        --bg-hover-element-menu: rgba(255, 255, 255, 0.808);
+        --color-shadows: black;
+        --color-border: black;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 16pt;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-main);
+}
