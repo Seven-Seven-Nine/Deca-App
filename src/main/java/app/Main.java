@@ -2,7 +2,9 @@ package app;
 
 public class Main {
     public static void main(String[] args) {
-        App app = new App();
+        User user = new User("deca", "user", 0);
+        App app = new App(user);
+
         if (args.length > 0) {
             for (int index = 0; index < args.length; index++) {
                 if (args[index].equals("--debug")) {
